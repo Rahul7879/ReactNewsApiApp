@@ -1,0 +1,49 @@
+.hoverclass{
+    background-color: rgb(121, 117, 117);
+    /* height: 120px; */
+    transition: background-color 1.5s;
+}
+
+ .hoverclass:hover{
+    background-color: black;
+    color: aliceblue;
+
+}
+#span{
+    color: rgb(255, 0, 136);
+}
+/* #span:hover{
+    color: blueviolet;
+} */
+.navbar-brand{
+    color: #fff;
+   margin: 0 90px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}
+.navbar{
+    background-color: rgb(59, 59, 70);
+    /* color: aliceblue; */
+}
+.nav-link{
+    color: bisque;
+    letter-spacing: 2px;
+    font-family: 'Lato',sans-serif;
+    text-align: center;
+    margin: 0 10px;
+    transition: font-weight 4s, margin 4px;
+
+   
+}
+.nav-link:hover{
+    /* color: aqua; */
+  
+  font-weight: 700;
+  margin: 0 8px;
+
+
+}
+.heading{
+   margin-top: 65px;
+   cursor: none;
+}
